@@ -51,11 +51,16 @@ jobs:
           name: nsp-ansible-collection
           path: ${{ env.FILENAME }}
 
+      - name: Create static-name alias for latest download
+        run: cp "${{ env.FILENAME }}" nokia-nsp-latest.tar.gz
+
       - name: Attach collection to GitHub release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.event.inputs.tag || github.ref_name }}
-          files: ${{ env.FILENAME }}
+          files: |
+            ${{ env.FILENAME }}
+            nokia-nsp-latest.tar.gz
 
       - name: Publish to Ansible Galaxy
         if: env.ANSIBLE_GALAXY_API_KEY != ''
