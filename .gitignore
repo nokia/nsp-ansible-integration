@@ -1,0 +1,13 @@
+dist/
+ansible-env/
+.ansible_collections/
+__pycache__/
+*.tar.gz
+tests/inventory.yml
+.vscode/
+*.log
+.DS_Store
+site/
+
+# Cursor IDE rules (local only, do not push)
+.cursor/

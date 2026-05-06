@@ -1,0 +1,16 @@
+---
+- name: Upload/Download text and binary files using NSP file-service-app
+  hosts: srosv6
+  gather_facts: no
+
+  tasks:
+    - name: get system config
+      ansible.netcommon.restconf_get:
+        path: "/restconf/data/network-device-mgr:network-devices/network-device={{ neid }}/root/nokia-conf:/configure/system?depth=1"
+      delegate_to: nsp25_11
+      register: inventory_result
+
+    - name: output result
+      debug:
+        var: inventory_result
+...
