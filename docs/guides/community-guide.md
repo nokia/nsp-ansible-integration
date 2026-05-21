@@ -45,8 +45,8 @@ Use GitHub pull requests to contribute code changes, including:
 
 ```bash
 # Clone the repository
-git clone https://github.com/nokia/nsp-playbooks-for-Ansible.git
-cd nsp-playbooks-for-Ansible
+git clone https://github.com/nokia/nsp-ansible-integration.git
+cd nsp-ansible-integration
 
 # Create and activate virtual environment
 python3 -m venv ansible-env
@@ -172,7 +172,7 @@ We appreciate every contribution! Contributors are recognized in:
 
 ---
 
-**Questions?** Open a [GitHub Issue](https://github.com/nokia/nsp-playbooks-for-Ansible/issues) or join the discussion.
+**Questions?** Open a [GitHub Issue](https://github.com/nokia/nsp-ansible-integration/issues) or join the discussion.
 
 **Ready to contribute?** Pick an issue labeled `good first issue` on GitHub or suggest improvements!
 

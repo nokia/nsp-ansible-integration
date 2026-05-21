@@ -3,8 +3,8 @@ site_description: Ansible plugin and modules for Nokia NSP
 site_url: https://network.developer.nokia.com
 edit_uri: edit/main/docs/
 site_author: Sven Wisotzky
-repo_name: nokia/nsp-playbooks-for-Ansible
-repo_url: https://github.com/nokia/nsp-playbooks-for-Ansible
+repo_name: nokia/nsp-ansible-integration
+repo_url: https://github.com/nokia/nsp-ansible-integration
 copyright: Copyright &copy; 2026 Nokia
 theme:
   name: material
@@ -91,7 +91,7 @@ markdown_extensions:
 - pymdownx.tasklist:
     custom_checkbox: true
 extra:
-  version: 0.1.0
+  version: 1.0.0
   social:
   - icon: fontawesome/brands/github
-    link: https://github.com/nokia/nsp-playbooks-for-Ansible
+    link: https://github.com/nokia/nsp-ansible-integration

@@ -1,7 +1,7 @@
 ---
 namespace: nokia
 name: nsp
-version: 0.1.0
+version: 1.0.0
 readme: README.md
 authors:
   - Sven Wisotzky <sven.wisotzky@nokia.com>
@@ -16,10 +16,10 @@ tags:
 dependencies:
   ansible.netcommon: ">=5.2.0"
   ansible.utils: ">=3.0.0"
-repository: https://github.com/nokia/nsp-playbooks-for-Ansible
-documentation: https://github.com/nokia/nsp-playbooks-for-Ansible
-homepage: https://github.com/nokia/nsp-playbooks-for-Ansible
-issues: https://github.com/nokia/nsp-playbooks-for-Ansible/issues
+repository: https://github.com/nokia/nsp-ansible-integration
+documentation: https://nokia.github.io/nsp-ansible-integration
+homepage: https://nokia.github.io/nsp-ansible-integration
+issues: https://github.com/nokia/nsp-ansible-integration/issues
 build_ignore:
   - .github/
   - tools/

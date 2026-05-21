@@ -43,8 +43,8 @@ Here are some instructions to kickstart your automation journey:
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/nokia/nsp-playbooks-for-Ansible/issues)
+- **Issues**: [GitHub Issues](https://github.com/nokia/nsp-ansible-integration/issues)
 - **Install**: [Ansible Galaxy](https://galaxy.ansible.com/nokia/nsp)
 
 ---
-**Collection Version:** 0.1.0 | **License:** BSD 3-Clause | **Python:** 3.11+ | **Ansible:** 2.14+
+**Collection Version:** 1.0.0 | **License:** BSD 3-Clause | **Python:** 3.11+ | **Ansible:** 2.14+

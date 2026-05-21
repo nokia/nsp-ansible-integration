@@ -4,11 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [1.0.0] - 2026-05-21
+
+### Changed
+
+- Released version 1.0.0 of the Nokia NSP Ansible Collection (`nokia.nsp`)
+- Renamed the repository to [nokia/nsp-ansible-integration](https://github.com/nokia/nsp-ansible-integration)
+
 ## [0.1.0] - 2026-05-06
 
 ### Added
 
-- Nokia NSP Ansible Collection (`nokia.nsp`) published under [nokia/nsp-playbooks-for-Ansible](https://github.com/nokia/nsp-playbooks-for-Ansible)
+- Nokia NSP Ansible Collection (`nokia.nsp`) published
 - **Modules:**
   - `nokia.nsp.rpc` - Execute global YANG RPC operations on Nokia NSP
   - `nokia.nsp.action` - Execute YANG actions on RESTCONF resources
@@ -41,8 +49,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 
 ## Release Information
 
-**Current Version:** 0.1.0  
-**Release Date:** 2026-05-06  
-**Repository:** [github.com/nokia/nsp-playbooks-for-Ansible](https://github.com/nokia/nsp-playbooks-for-Ansible)
+**Current Version:** 1.0.0  
+**Release Date:** 2026-05-21  
+**Repository:** [github.com/nokia/nsp-ansible-integration](https://github.com/nokia/nsp-ansible-integration)
 
-[0.1.0]: https://github.com/nokia/nsp-playbooks-for-Ansible/releases/tag/0.1.0
+[1.0.0]: https://github.com/nokia/nsp-ansible-integration/releases/tag/1.0.0
+[0.1.0]: https://github.com/nokia/nsp-ansible-integration/releases/tag/0.1.0
